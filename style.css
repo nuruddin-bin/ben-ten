@@ -22,6 +22,11 @@ div {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
+    box-shadow: -1px 0px 20px 0px var(--green-color);
+    transition: .3s;
+}
+
+div:hover {
     box-shadow: -1px 0px 40px 10px var(--green-color);
 }
 
